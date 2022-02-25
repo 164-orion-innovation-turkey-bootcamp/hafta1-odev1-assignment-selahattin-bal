@@ -8,7 +8,7 @@ const target=6
 function sum(nums, target){
 let firstIndex=0
 let secondIndex=0
-    for(let i=0;i<nums.length-1;i++){
+    for(let i=0;i<nums.length-2;i++){
      firstIndex=i
         for(let k=i+1;k<nums.length;k++){
         secondIndex=k
